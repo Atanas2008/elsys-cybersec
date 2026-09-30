@@ -1,0 +1,11 @@
+# FFUF Report
+
+  Command line : `ffuf -w wordlist.txt -u http://192.168.10.10/FUZZ -o ffuf_scan.txt -of md`
+  Time: 2026-09-30T22:16:31&#43;03:00
+
+  | FUZZ | URL | Redirectlocation | Position | Status Code | Content Length | Content Words | Content Lines | Content Type | Duration | ResultFile | ScraperData | Ffufhash
+  | :- | :-- | :--------------- | :---- | :------- | :---------- | :------------- | :------------ | :--------- | :----------- | :------------ | :-------- |
+  | backup | http://192.168.10.10/backup | http://192.168.10.10/backup/ | 2 | 301 | 162 | 5 | 8 | text/html | 21.713998ms |  |  | 6013d2
+  | admin | http://192.168.10.10/admin | http://192.168.10.10/admin/ | 1 | 301 | 162 | 5 | 8 | text/html | 16.891429ms |  |  | 6013d1
+  | uploads | http://192.168.10.10/uploads | http://192.168.10.10/uploads/ | 3 | 301 | 162 | 5 | 8 | text/html | 28.507106ms |  |  | 6013d3
+  

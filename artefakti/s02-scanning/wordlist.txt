@@ -1,0 +1,15 @@
+admin
+backup
+uploads
+login
+config
+test
+images
+css
+js
+api
+data
+private
+secret
+old
+tmp
